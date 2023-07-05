@@ -1,13 +1,18 @@
 html {
     box-sizing: border-box;
+
   }
   
   *, *::before, *::after {
     box-sizing: inherit;
   }
+
+  body{
+    background-color: 	rgb(255, 204, 255);
+  }
   
   #piano {
-    background-color: #00471b;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
     width: 992px;
     height: 290px;
     margin: 80px auto;
@@ -45,9 +50,13 @@ html {
   }
   
   .logo {
-    width: 200px;
+    width: 90%;
     position: absolute;
-    top: 23px;
+    top: 10px;
+    color: white;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5rem;
+    text-align: right;
   }
   
   @media (max-width: 768px) {
@@ -60,7 +69,7 @@ html {
     }
   
     .logo {
-      width: 150px;
+      /* width: 150px; */
     }
   }
   

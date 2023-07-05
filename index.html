@@ -5,35 +5,42 @@
     <title>Piano</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="piano">
-      <img class="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" />
+      <p class="logo">Written with Words</p>
+      <!-- <img class="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" /> -->
       <div class="keys">
-        <div class="key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
-        <div class="key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
+        <div class="key" id="C3" onclick="C3.play()"></div>
+        <div class="key black--key" id="D3" onclick="D3.play()"></div>
+        <div class="key black--key" id="E3" onclick="E3.play()"></div>
+        <div class="key" id="F3" onclick="F3.play()"></div>
+        <div class="key black--key" id="G3" onclick="G3.play()"></div>
+        <div class="key black--key" id="A3" onclick="A3.play()"></div>
+        <div class="key black--key" id="B3" onclick="B3.play()"></div>
+        
 
-        <div class="key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
-        <div class="key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
+        <div class="key" id="C4" onclick="C4.play()"></div>
+        <div class="key black--key" id="D4" onclick="D4.play()"></div>
+        <div class="key black--key" id="E4" onclick="E4.play()"></div>
+        <div class="key" id="C4" onclick="C4.play()"></div>
+        <div class="key black--key" id="F4" onclick="F4.play()"></div>
+        <div class="key black--key" id="A4" onclick="A4.play()"></div>
+        <div class="key black--key" id="B4" onclick="B4.play()"></div>
 
-        <div class="key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
-        <div class="key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
-        <div class="key black--key"></div>
+        <div class="key" id="C5" onclick="C5.play()"></div>
+        <div class="key black--key" id="D5" onclick="D5.play()"></div>
+        <div class="key black--key" id="E5" onclick="E5.play()"></div>
+        <div class="key" id="F5" onclick="F5.play()"></div>
+        <div class="key black--key" id="G5" onclick="G5.play()"></div>
+        <div class="key black--key" id="A5" onclick="A5.play()"></div>
+        <div class="key black--key" id="B5" onclick="B5.play()"></div>
       </div>
     </div>
+    <script  src="keys-audio.js"></script>
+    <script src="keys-color.js"></script>
   </body>
 </html>
